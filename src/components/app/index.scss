@@ -1,0 +1,14 @@
+$use-fadeIn: true;
+$use-fadeOut: true;
+$use-fadeInUp: true;
+
+@import 'node_modules/animate-sass/animate';
+
+.App {
+  padding-top: 30px;
+  max-width: 700px;
+
+  &__header {
+    margin-bottom: 30px;
+  }
+}

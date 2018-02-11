@@ -1,0 +1,11 @@
+.todo-list {
+  &__group {
+    &--completed {
+      .todo {
+        &__title {
+          text-decoration: line-through;
+        }
+      }
+    }
+  }
+}
